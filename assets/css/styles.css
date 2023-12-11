@@ -1,0 +1,391 @@
+html, body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header{
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    z-index: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .nav-bar{
+    border: none;
+    height: 50px;
+  }
+  
+  .header .nav-bar img{
+      margin-left: 40px;
+      margin-top: 30px;
+  }
+  
+  .header .nav-bar ul{
+      float: right;
+  }
+  
+  .header .nav-bar ul li{
+      display: inline-block;
+      margin-right: 30px;
+      margin-top: 35px;
+      transition: all 0.3s ease 0s;
+  }
+  
+  .header .nav-bar ul li a{
+      padding-top: 30px;
+      text-decoration: none;
+      color: rgb(240, 213, 213);
+      font-weight: bold;
+      transition: 1s;
+  }
+  
+  .header .nav-bar ul li a:hover{
+      color: green;
+  }
+  
+  .header .nav-bar ul li a:active{
+      color: green;
+  }
+
+  .header .nav-bar ul li a:last-child{
+    margin-right: 20px;
+  }
+
+  .welcome{
+    background-image: url(/assets/images/jog-falls-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+
+  .welcome .welcome-area{
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .welcome .welcome-area .welcome-area-header{
+     font-weight: bold; 
+     font-size: 70px; 
+     font-style: italic;
+     margin-bottom: 0px;
+     color: white;
+  }
+
+  .welcome .welcome-area .welcome-area-description{
+    font-weight: bold; 
+    font-size: 25px;
+    font-style: italic; 
+    margin-top: 0px;
+    color: white;
+ }
+
+ .welcome .welcome-area .welcome-area-btn{
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 1s;
+ }
+
+ .welcome .welcome-area .welcome-area-btn:hover{
+    background-color: rgb(79, 223, 71);
+ }
+
+ .booking-area div{
+    height: 70px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 610px;
+    left: 90px;
+    right: 90px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .booking-area .booking-area-form{
+    align-items: center;
+ }
+
+ .booking-area .booking-area-form label{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .booking-area .booking-area-form .form-input{
+    width: 22%;
+    height: 20px;
+    font-size: 15px;
+ }
+
+ .booking-area .booking-area-form button{
+   margin-left: 30px; 
+   margin-top: 8px;
+   padding: 15px;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+   background-color: green;
+   color: white;
+   transition: 1s;
+ }
+
+ .booking-area .booking-area-form button:hover{
+    background-color: rgb(79, 223, 71);
+ }
+
+ .visit-area .visit-area-header{
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .visit-area .visit-area-description{
+    display: block;
+    padding-left: 40px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row1 img{
+    border: 1;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    transition: 1s;
+ }
+
+ .visit-area .visit-area-description .visit-area-row1 img:hover{
+   transform: scale(1.01);
+ }
+
+ .visit-area .visit-area-description .visit-area-row1 .visit-area-subtext{
+    margin-top: 0px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row1 .visit-area-subtext a{
+   text-decoration: none;
+   color: black;
+ }
+
+ .visit-area .visit-area-description .visit-area-row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row2 img{
+    border: 1;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row2 .visit-area-subtext{
+    margin-top: 0px;
+ }
+
+ .visit-area .visit-area-description .visit-area-row2 .visit-area-subtext a{
+   text-decoration: none;
+   color: black;
+ }
+
+ hr{
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-bottom: 40px;
+ }
+
+ .about-area .about-area-introduction{
+   display: flex;
+   margin-bottom: 50px;
+ }
+
+ .about-area .about-area-introduction .about-area-img{
+   height: 400px;
+   width: 500px;
+   padding-left: 40px;
+   padding-right: 40px;
+   transition: 1s;
+   border: 1;
+   border-radius: 60px;
+ }
+
+ .about-area .about-area-introduction .about-area-img:hover{
+   transform: scale(1.01);
+ }
+
+ .about-area .about-area-introduction .about-area-description{
+   text-align: center;
+ }
+
+ .about-area .about-area-introduction .about-area-description .about-area-para1{
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+ .about-area .about-area-introduction .about-area-description .about-area-para2{
+   font-size: 18px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+
+ .service-area{
+   margin-bottom: 50px;
+   align-items: center;
+    position: relative;
+    justify-content: center;
+ }
+
+ .service-area .service-area-header{
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ .service-area .service-area-description{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+
+ .service-area .service-area-description .service-area-servce1{
+   display: block;
+   background: whitesmoke;
+   text-align: center;
+   margin-left: 220px;
+   border: 1;
+   border-radius: 20px;
+   width: 60%;
+   transition: 1s;
+ }
+
+ .service-area .service-area-description .service-area-servce1:hover{
+   transform: scale(1.01);
+ }
+
+ .service-area .service-area-description .service-area-servce1 img{
+   width: 300px;
+ }
+
+ .service-area .service-area-description .service-area-servce1 p{
+   background-color: green;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   text-align: center;
+   margin-left: 50px;
+   color: white;
+   font-size: 20px;
+   width: 75%;
+   transition: 1s;
+ }
+
+ .service-area .service-area-description .service-area-servce1 p:hover{
+   background-color: rgb(77, 233, 77);
+ }
+
+ .service-area .service-area-description .service-area-servce2{
+   display: block;
+   background: whitesmoke;
+   text-align: center;
+   margin-right: 30px;
+   margin-left: 30px;
+   border: 1;
+   border-radius: 20px;
+   width: 60%;
+   transition: 1s;
+ }
+
+ .service-area .service-area-description .service-area-servce2:hover{
+   transform: scale(1.01);
+ }
+
+ .service-area .service-area-description .service-area-servce2 img{
+   width: 300px;
+   height: 170px;
+ }
+
+ .service-area .service-area-description .service-area-servce2 p{
+   background-color: green;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   text-align: center;
+   margin-left: 50px;
+   color: white;
+   font-size: 20px;
+   width: 75%;
+   transition: 1s;
+ }
+
+ .service-area .service-area-description .service-area-servce2 p:hover{
+   background-color: rgb(77, 233, 77);
+ }
+
+ .service-area .service-area-description .service-area-text a{
+   text-decoration: none;
+   color: black;
+ }
+
+ .contact-area{
+  height: 80vh;
+  background-color: whitesmoke;
+}
+
+.contact-area .contact-area-header{
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.contact-area .contact-area-description{
+  display: flex;
+  margin-left: 200px;
+}
+
+.contact-area-info h2{
+  margin-bottom: 30px;
+}
+
+.contact-area-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 0.6px;
+}
+
+.contact-area-text p{
+  margin-bottom: 8px;
+}
+
+.contact-area-map{
+  margin-left: 100px;
+}
+
+.footer-area{
+  text-align: center;
+  padding: 3px;
+  background-image: url(/assets/images/footer1.jfif);
+  color: white;
+}
+
+
+  
